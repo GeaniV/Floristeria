@@ -1,0 +1,356 @@
+body {
+    background-color: #eee;
+    margin: 0;
+    font-family: sans-serif;
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(../imagenes/roses-g723e6de1c_1920.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 100%;
+    background-color: #D4AEA3;
+    position: sticky;
+    top: 0;
+    max-width: 1200px;
+    height: 80px;
+    z-index: 10;
+}
+
+header div img {
+    padding-left: 50px
+}
+li {
+    display: inline-block;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+header a {
+    
+    font-size: 1.3rem;
+     padding-right: 20px;
+}
+
+header a:hover {
+    color: chocolate;
+    border-bottom: solid 2px bisque;
+    padding-bottom: 5px;
+}
+
+header a:active {
+    color: #A64B1F;
+}
+
+#logo a {
+    border-bottom: none;
+}
+#home {
+    padding-top: 30px;
+}
+
+.enlace_inactivo {
+    border-bottom: solid 2px bisque;
+    padding-bottom: 5px;
+}
+
+ .div_desplegable {
+    background-color: #D4AEA3;
+    margin-top: 7px;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    display: none;
+
+}
+            
+.div_desplegable a {
+    padding: 5px 10px;
+    color: black;
+    display: block;
+   
+}
+
+.div_desplegable a:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.li_desplegable:hover .div_desplegable {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 600px 0;
+    color: bisque;
+    font-size: 4rem;
+    font-family: 'Imperial Script', cursive;
+    font-weight: 200;
+    font-size: 5rem;
+}
+
+#parte1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.opacidad {
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+}
+.zoom {
+    overflow: hidden;
+}
+
+#parte1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#parte1 img {
+    height: 250px;
+    width: 250px;
+    margin: 0 10px;
+    border-radius: 10%;
+    border: solid 2px #D7A790;
+    transition: 0.8s;
+    box-shadow: 4px 4px #D7A790;
+}
+
+#parte1 img:hover {
+    transform: scale(1.1);
+}
+
+#parte2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    margin: 10px 0;
+    background-image: url(../imagenes/bouquet-g8bd51b08b_1920.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border: solid 1px pink;
+    margin: 0;
+    border-bottom: none;
+    padding: 50px;
+}
+#parte2 h2 {
+    padding: 20px 50px;
+    font-size: 2rem;
+     font-family: 'Oleo Script Swash Caps', cursive;
+}
+#parte2 p {
+    width: 380px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+span {
+    font-weight: bold;
+}
+li span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+a span {
+    color: #B96CA9;
+}
+
+#parte3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-image: url(../imagenes/rosa.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: auto;
+}
+
+#parte3 h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 80px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    
+}
+input {
+    padding: 5px;
+}
+
+#contacto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.5);
+    color: #D4AEA3;
+    padding: 45px;
+    
+}
+
+ input, #campo_mensaje {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+[type="submit"] {
+    cursor: pointer;
+}   
+
+#redes {
+    display: flex;
+    padding-left: 50px; 
+    background-color: rgba(0,0,0,0.5);
+}
+
+#redes img {
+    height: 80px;
+    width: 80px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #D4AEA3;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        width: 60px;
+        height: 50px;
+    }
+    nav {
+        height: 60px;
+        margin: 0;
+    }
+    header ul {
+        margin: 0;
+        padding: 0;
+        font-size: 14px
+    }
+    .enlace_inactivo {
+        padding-bottom: 1px;
+    }
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 5px;
+    }
+    #parte1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #parte1 h3 {
+        text-align: center;
+    }
+    #parte1 div {
+        margin: 0;
+    }
+    #parte1 a {
+        font-size: 16px;
+    }
+    #parte1 img {
+        height: 100px;
+        width: 100px;
+    }
+    figcaption {
+        font-size: 16px;
+        text-align: left;
+    }
+    #parte2 {
+        margin: 0;
+        padding: 0;
+    }
+    #parte2 h2 {
+        padding: 0 20px;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    #parte2 p {
+        max-width: 90%;
+        padding: 0 20px;
+        font-size: 1.1rem;
+    }
+    #formulario {
+        max-width: 300px;
+    }
+    #contacto {
+        flex-direction: column;
+    }
+    #contacto li {
+        font-size: 1rem;
+        font-weight: bold; 
+        
+    }
+    #contacto h3 {
+        font-size: 1.3rem;
+    }
+    iframe{
+        width: 97%;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #redes img {
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

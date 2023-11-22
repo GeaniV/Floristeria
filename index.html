@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Floristeria Díselo con Rosas</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lavishly+Yours&display=swap" rel="stylesheet">
+        <link href="css/estilos_index.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+        <div id="contenedor">
+            <header id="cabecera">
+                <div id="logo">
+                    <a href="index.html"><img src="imagenes/diseloconrosas1.png" width="80px"  alt="Logo floristeria"/></a>
+                   
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a class="enlace_inactivo" href="#home">Home</a></li>
+                        <li></li>
+                        <li class="li_desplegable"><a href="tienda.html">Tienda</a>
+                             <div class="div_desplegable">
+                                <a href="../floristeria/tienda.html#ramos">Ramos de flores</a>
+                                <a href="../floristeria/tienda.html#cestas">Cestas de flores</a>
+                                <a href="../floristeria/tienda.html#preservadas">Flores preservadas</a>
+                                <a href="../floristeria/tienda.html#plantas">Plantas</a>
+                            </div>
+                        </li>
+                        <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="#parte3">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+
+            <main id="home">
+                
+                <h1 class="opacidad">Díselo con Rosas</h1>
+                
+                <section id="parte1">
+                     <div>
+                            <h3><a href="../floristeria/tienda.html#ramos">Ramos de flores</a></h3>
+                         <a href="../floristeria/tienda.html#ramos"><img src="imagenes/tienda/ramo-de-rosas.png" alt="Ramo de rosas"/></a>
+                        </div>
+                        <div> 
+                            <h3><a href="../floristeria/tienda.html#cestas">Cestas de flores</a></h3>
+                            <a href="../floristeria/tienda.html#cestas"><img src="imagenes/tienda/caja.png" alt="Cestas de flores"/></a>
+                        </div>
+                        <div>
+                            <h3><a href="../floristeria/tienda.html#preservadas">Flores preservadas</a></h3>
+                            <a href="../floristeria/tienda.html#preservadas"><img src="imagenes/tienda/preservadas.png" alt="Flores preservadas"/></a>
+                        </div>
+                        <div>
+                            <h3><a href="../floristeria/tienda.html#plantas">Plantas</a></h3>
+                            <a href="../floristeria/tienda.html#plantas"><img src="imagenes/tienda/plantas.png" alt="Plantas"/></a>
+                        </div>  
+                </section>
+                
+                <section id="parte2">
+                    <h2>Sobre nosotros</h2>
+                    <p>En <span>Floristería Díselo con Rosas</span> encontrarás flores, si. ¡Y mucho más!</p>
+                    <p><span>Floristería Díselo con Rosas</span> nace en 1987 con la idea de que todo empieza desde la raíz. Que es tan importante la flor como el objeto que la sostiene, la tierra en la que se plante , el papel que la envuelve , el agua que la riega, la luz que la alimenta ... </p> 
+                    <p><span>Floristería Díselo con Rosas</span> es un negocio familiar de la ilusión de un matrimonio , Marimar y Manolo, de transformar su amor por las flores en su  negocio. Este camino empezó un 16 de Noviembre con la apertura de su primera tienda la cual pasaría a formar parte de sus corazones y en donde han vivido sus mejores momentos, luego llegarían nueva aperturas de tiendas, trabajos en ferias, bodas. Todo esto gracias al trabajo duro, la constancia y la perseverancia que tienen en la vida. Sus creaciones llevadas a cabo por Marimar, con conocimiento en todos tipo de ramos, decorados de bodas, estructuras y muchas  más técnicas del mundo floral. Cada uno de sus trabajos son hechos desde su interior con toda la profesionalidad y cariño que la caracterizan...<a href="sobre_nosotros.html"><span>Leer más</span></a></p>
+                </section>
+                
+                <section id="parte3">
+                    <h2>Contactanos para personalizar tu pedido</h2>
+                   
+                    <form name="formulario" id="formulario"  action="procesar.php" method="post">
+                        <label for="campo_nombre">*Nombre:</label>
+                        <input type="text" name="nombre" id="campo_nombre" maxlength="10" required autocomplete="off" /><br>
+                        <label for="campo_mail">*Email:</label>
+                        <input type="email" name="email" id="campo_mail" required autocomplete="off"/><br>
+                        <label for="campo_telefono">Teléfono:</label>
+                        <input type="tel" name="telefono" id="campo_telefono"/>
+                        <label for="campo_mensaje">*Mensaje</label>
+                        <textarea name="mensaje" id="campo_mensaje" rows="15" cols="50" required></textarea>
+                        <input type="submit"/>    
+                    </form>
+                    
+                     <div id="contacto">
+                         
+                        <div>
+                            <h3>Tienda</h3>
+                            <ul>
+                                <li><span>Dirección: Calle Postas, 12</span></li><br/>
+                                <li><span>Vitoria-Gasteíz , 01022</span></li><br/>
+                                <li><span>Phone: +34 932 53 02  75</span></li><br/>
+                                <li><span> Whatsapp: +34 640 06 35 85</span></li><br/>
+                                <li><span>Email:  info@diselo_con_rosas.com</span></li>
+                            </ul>
+                            <h3>Horario</h3>
+                            <ul>
+                                <li><span>Lun - Vier: 11.00-14.00 </span> </li><br/>
+                                <li><span>17.00 - 20.00</span></li><br/>
+                                <li><span>Sabado: 11.00 - 14.00</span></li><br/>
+                                <li><span>Domingo: Cerrado</span></li>
+                            </ul>
+                        </div>
+                        <div id="mapa">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11700.628794726394!2d-2.6720463494712505!3d42.84841379360278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfloristeria!5e0!3m2!1ses!2ses!4v1654879174379!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>    
+                    </div> 
+                    <div id="redes">
+                       <a href="#"><img src="imagenes/redes/insta.png" alt="Icono Instagram"/></a>
+                        <a href="#"><img src="imagenes/redes/twit.png" alt="Icono twiter"/></a>
+                        <a href="#"><img src="imagenes/redes/face.png" alt="Icono facebook"/></a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; 2022 by Valentina &amp; Co. </p>
+            
+            </footer>
+            
+            <script>
+            
+               window.onscroll = function () {
+                if (scrollY >= 1180 && scrollY <=2100) {
+                    document.getElementById("cabecera").style.backgroundColor = "#B7879F";
+                    
+                    } else {
+                        document.getElementById("cabecera").style.backgroundColor = "#D4AEA3";
+                    }
+            }
+               
+              
+            /*
+                      window.onscroll = function () {
+                if (scrollY >= 100) {
+                    document.getElementById("cabecera").style.height = "70px";
+                    
+                    } else {
+                        document.getElementById("cabecera").style.height = "80px";
+                }
+            }
+            */
+            
+            </script>
+        </div>    
+
+	</body>
+</html>
